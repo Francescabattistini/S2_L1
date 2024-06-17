@@ -29,7 +29,8 @@ console.log("il mio nome è :", myName);
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
 */
 
-console.log(13 + 24);
+let sum = 12 + 20;
+console.log(sum);
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
