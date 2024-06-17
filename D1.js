@@ -10,39 +10,45 @@ REGOLE
 /* ESERCIZIO 1
  Elenca e descrivi i principali datatype in JavaScript. Prova a spiegarli come se volessi farli comprendere a un bambino.
 */
-
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* In javascript abbiamo 5 tipi primitivi: 
+1) stringa,caratteri senza gli apici( gli apici sono le doppie virgolette o le signole virgolette).
+2) i numeri, che non hanno bisogno di apici.
+3)I Booleani che sono true o false.
+4)null,assenza intenzionale di un valore
+5)undefined, indica che una variabile non ha un valore
+*/
 
 /* ESERCIZIO 2
  Crea una variable chiamata "myName" e assegna ad essa il tuo nome, sotto forma di stringa.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+const myName = "Francesca";
+console.log("il mio nome è :", myName);
 
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+console.log(13 + 24);
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
 */
-
-/* SCRIVI QUI LA TUA RISPOSTA */
-
+let x = 12;
+console.log("la variabile X è uguale a:", x);
 /* ESERCIZIO 5
   Riassegna un nuovo valore alla variabile "myName" già esistente: il tuo cognome.
   Dimostra l'impossibilità di riassegnare un valore ad una variabile dichiarata con il costrutto const.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* myName = "Battistini";
+console.log("il mio cognome è :", myName); */
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+console.log(x - 4);
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -50,4 +56,8 @@ REGOLE
  EXTRA: verifica che la loro uguaglianza diventi true se entrambe vengono trasformate in lowercase (senza cambiare il valore di name2!).
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+let name1 = "john";
+let name2 = "John";
+console.log("name1 e name2 sono uguali?", name1 === name2);
+console.log(name1 === name2.toLowerCase());
+console.log(name1.toUpperCase(), name2.toUpperCase());
